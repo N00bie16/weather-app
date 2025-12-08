@@ -17,7 +17,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherSunny, { size: 30 }),
       label: "Sunny",
-      image: "/public/sunny.jpg",
+      image: "/sunny.jpg",
     };
   }
 
@@ -26,7 +26,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherPartlySunny, { size: 30 }),
       label: "Cloudy",
-      image: "/public/cloudy.jpg"
+      image: "/cloudy.jpg"
     };
   }
 
@@ -35,7 +35,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherCloudy, { size: 30 }),
       label: "Fog",
-      image: "/public/foggy.jpg"
+      image: "/foggy.jpg"
     };
   }
 
@@ -44,7 +44,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherShower, { size: 30 }),
       label: "Drizzle",
-      image: "/public/drizzle.jpg"
+      image: "/drizzle.jpg"
     };
   }
 
@@ -53,7 +53,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherShower, { size: 30 }),
       label: "Rain",
-      image: "/public/rainy.jpg",
+      image: "/rainy.jpg",
     };
   }
 
@@ -62,7 +62,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherDownpour, { size: 30 }),
       label: "Heavy Rain",
-      image: "/public/heavyRain.jpg"
+      image: "/heavyRain.jpg"
     };
   }
 
@@ -71,7 +71,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherSnow, { size: 30 }),
       label: "Snow",
-      image: "/public/snowy.jpg"
+      image: "/snowy.jpg"
     };
   }
 
@@ -80,7 +80,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherStormy, { size: 30 }),
       label: "Thunderstorm",
-      image: "/public/thunderstorm.jpg",
+      image: "/thunderstorm.jpg",
     };
   }
 
@@ -88,6 +88,6 @@ export function getWeatherIcon(code: number) {
   return {
     icon: React.createElement(TiWeatherWindy, { size: 30 }),
     label: "Windy",
-    image: "/public/windy.jpg",
+    image: "/windy.jpg",
   };
 }
