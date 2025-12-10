@@ -80,7 +80,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherStormy, { size: 30 }),
       label: "Thunderstorm",
-      image: "/thunderstorm.jpg",
+      image: "/thunder.jpg",
     };
   }
 
