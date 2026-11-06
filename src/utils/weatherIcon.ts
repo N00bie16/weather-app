@@ -17,7 +17,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherSunny, { size: 30 }),
       label: "Sunny",
-      image: "/sunny.jpg",
+      image: "/sunny.webp",
     };
   }
 
@@ -26,7 +26,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherPartlySunny, { size: 30 }),
       label: "Cloudy",
-      image: "/cloudy.jpg"
+      image: "/cloudy.webp",
     };
   }
 
@@ -35,7 +35,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherCloudy, { size: 30 }),
       label: "Fog",
-      image: "/foggy.jpg"
+      image: "/foggy.webp",
     };
   }
 
@@ -44,7 +44,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherShower, { size: 30 }),
       label: "Drizzle",
-      image: "/drizzle.jpg"
+      image: "/drizzle.webp",
     };
   }
 
@@ -53,7 +53,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherShower, { size: 30 }),
       label: "Rain",
-      image: "/rainy.jpg",
+      image: "/rainy.webp",
     };
   }
 
@@ -62,7 +62,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherDownpour, { size: 30 }),
       label: "Heavy Rain",
-      image: "/heavyRain.jpg"
+      image: "/heavyRain.webp",
     };
   }
 
@@ -71,7 +71,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherSnow, { size: 30 }),
       label: "Snow",
-      image: "/snowy.jpg"
+      image: "/snowy.webp",
     };
   }
 
@@ -80,7 +80,7 @@ export function getWeatherIcon(code: number) {
     return {
       icon: React.createElement(TiWeatherStormy, { size: 30 }),
       label: "Thunderstorm",
-      image: "/thunder.jpg",
+      image: "/thunder.webp",
     };
   }
 
@@ -88,6 +88,6 @@ export function getWeatherIcon(code: number) {
   return {
     icon: React.createElement(TiWeatherWindy, { size: 30 }),
     label: "Windy",
-    image: "/windy.jpg",
+    image: "/windy.webp",
   };
 }
